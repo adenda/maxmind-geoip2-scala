@@ -1,7 +1,7 @@
 lazy val packageInfo = Seq(
   organization := "com.sanoma.cda",
   name := "maxmind-geoip2-scala",
-  version := "1.5.4"
+  version := "1.5.5"
 )
 
 lazy val scalaVersions = Seq(
@@ -10,7 +10,7 @@ lazy val scalaVersions = Seq(
 )
 
 val commonBuildLibs = Seq(
-  "com.maxmind.geoip2"  % "geoip2"          % "2.3.1",
+  "com.maxmind.geoip2"  % "geoip2"          % "2.9.0",
   "com.twitter"        %% "util-collection" % "6.45.0"
 )
 val commonTestLibs = Seq(
